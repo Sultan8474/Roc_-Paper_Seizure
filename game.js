@@ -3,8 +3,6 @@ let resetBtn=document.querySelector("#reset");
 let newGamebtn=document.querySelector("#new_g");
 let msgcon=document.querySelector(".msg_con");
 let msg=document.querySelector("#msg");
-
-
 let turnO=true;// payayerX,playerO
 
 const winPattern=[
@@ -111,14 +109,8 @@ const showDrow = () =>
                 
                 
             }
-          
-           
-            
         }
-      
-        
-        
-            
+             
     }
     
         
